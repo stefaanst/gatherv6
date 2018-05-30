@@ -1,0 +1,54 @@
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+@import "./variables.scss";
+
+$family-primary: "Open Sans";
+$body-size: 14px;
+
+$text: #d8d8d8;
+$body-color: #d8d8d8;
+$body-background-color: #2d2d38;
+
+$navbar-height: 5rem;
+$navbar-background-color: $gbg;
+$navbar-item-color: #ffffff4f;
+$navbar-item-hover-color: white;
+$navbar-item-hover-background-color: transparent;
+
+$input-focus-box-shadow-size: 1px;
+$input-focus-box-shadow-color: $gbgheader;
+
+@import "~bulma";
+
+.avatar {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+.avatar-big {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.google-map {
+  width: 100%;
+  height: 400px;
+  background: lighten($gbg, 0.1%);
+}
+
+.my-shadow {
+  -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.1);
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
